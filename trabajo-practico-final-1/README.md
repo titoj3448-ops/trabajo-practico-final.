@@ -6,11 +6,8 @@ Sistema de consola en Python para gestionar libros, usuarios y préstamos de una
 
 ## Integrantes del grupo
 
-- (Nombre y apellido)
-- (Nombre y apellido)
-- (Nombre y apellido)
-- (Nombre y apellido)
-
+- (Julian TTito)
+- (Javier Lopez Acuña)
 ## Conceptos implementados
 
 - **Herencia**: `Usuario` hereda de `Persona`
