@@ -12,3 +12,20 @@ class MiMeta(type):
         cls.total += 1
         return super().__call__(*args, **kwargs)
 
+# ── DECORADOR PROPIO ────────────────────────────────────────
+# Muestra un mensaje cada vez que se llama a una función
+def registrar_accion(func):
+    def wrapper(*args, **kwargs):
+        print(f"[Acción] Se ejecutó: {func.__name__}")
+        return func(*args, **kwargs)
+    return wrapper
+
+
+# ── CLASE BASE (herencia) ───────────────────────────────────
+class Persona(metaclass=MiMeta):
+    def __init__(self, nombre, apellido):
+        self.nombre = nombre
+        self.apellido = apellido
+
+    def mostrar(self):
+        pass  # polimorfismo: cada subclase lo implementa distinto
