@@ -25,3 +25,26 @@ Requerimientos Técnicos
 • Implementar al menos un decorador propio e integrarlo dentro del sistema.
 • Implementar una metaclase utilizando type o una clase derivada de type.
 • Implementar al menos un patrón de diseño, debidamente justificado.
+
+## Integrantes del grupo
+
+- (Julian TTito)
+- (Javier Lopez Acuña)
+
+## Conceptos implementados
+
+- **Herencia**: `Usuario` hereda de `Persona`
+- **Polimorfismo**: el método `mostrar()` se comporta distinto en cada clase
+- **Composición**: `Prestamo` usa `Libro` y `Usuario` directamente
+- **Agregación**: `Usuario` puede existir sin un préstamo
+- **Decorador propio**: `@registrar_accion` muestra cada acción ejecutada
+- **Metaclase**: `MiMeta` cuenta las instancias creadas de cada clase
+- **Patrón de diseño**: no se usan clases externas, todo está en un solo archivo (simplicidad intencional)
+
+## Cómo ejecutar
+
+Requiere Python 3.10 o superior.
+
+```bash
+python main.py
+```
