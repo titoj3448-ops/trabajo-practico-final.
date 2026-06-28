@@ -1,10 +1,11 @@
 # trabajo-practico-final.
 biblioteca 
-Consigna General
+# Consigna General
 Desarrollar una aplicación en Python denominada Sistema de Gestión de Biblioteca Digital. El
 sistema deberá permitir administrar libros, usuarios y préstamos utilizando Programación
 Orientada a Objetos.
-Requerimientos Funcionales
+
+# Requerimientos Funcionales
 Gestión de Libros
 Datos mínimos: Título, Autor, ISBN, Año de publicación y Cantidad de páginas.
 Operaciones mínimas: Alta, Modificación, Baja y Listado.
